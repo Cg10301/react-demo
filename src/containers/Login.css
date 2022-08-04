@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+.wrapper-login {
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/05-06-2017/existing_login_form-demo_Free/1043085537/web/images/b2.jpg") ;
+    background-repeat: no-repeat;
+   
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 35% 0 35%;
+    height: 745px;
+    width: fit-content;
+}
+.wrapper-login h1{
+    color: white;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    
+}
+
+.inner-login {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 65%;
+}
+.inner-login input{
+    background-color:rgba(0, 0, 0, 0.5) ;
+    margin: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+.inner-login .btn-login {
+    background-color: rgba(92, 112, 89, 0.5);
+    color: white;
+}
+.inner-login .btn-login:hover {
+    background-color: rgba(159, 167, 158, 0.5);
+    color: white;
+}
